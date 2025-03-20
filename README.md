@@ -1,6 +1,6 @@
 # patent_seeker
 
-This pipeline is used to scrap protein sequences from a list of patents. It then processes them  to remove short and duplicated sequences, and runs multiple sequences alignments to assess similarity. Any above a specific sequence ID threshold are removed. Filtered sequences are then run through another round of MSA, and phylogenetic trees are generated. Outputs are provided as csv and fasta files.
+This pipeline is used to scrape protein sequences from a list of patents. It then processes them  to remove short and duplicated sequences, and runs multiple sequences alignments to assess similarity. Any above a specific sequence ID threshold are removed. Filtered sequences are then run through another round of MSA, and phylogenetic trees are generated. Outputs are provided as csv and fasta files.
 
 It is currently designed to be run in Google Co-lab, and will not run as a standalone python script. I will fix this at somepoint...
 
